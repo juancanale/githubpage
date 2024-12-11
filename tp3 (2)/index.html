@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en"> 
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="paper.css" />
+  <title>Tp3 Rick and Morty</title>
+</head>
+
+<body>
+  <h1  class="text-center">Rick and morty Tp3</h1>
+
+  <div class="row flex-spaces tabs">
+    <input id="tab1" type="radio" name="tabs" checked>
+    <label for="tab1">Informacion de la serie</label>
+
+    <input id="tab2" type="radio" name="tabs">
+    <label for="tab2">Informacion del juego</label>
+
+    <input id="tab3" type="radio" name="tabs">
+    <label for="tab3">Informacion de los creadores</label>
+
+    <input id="tab4" type="radio" name="tabs">
+    <label for="tab4">Juego</label>
+
+    <div class="content" id="content1">
+      <div class="row flex-spaces">
+        <div class="card" style="width: 20rem;">
+          <div class="card-body">
+            <h4 class="card-title">Informacion de la serie</h4>
+            <p class="card-text">Rick y Morty es una serie de televisión estadounidense de animación
+              para adultos creada por Justin Roiland y Dan Harmon en 2013 para Adult Swim, también se emitió
+              en Cartoon Network. La serie sigue las desventuras de un científico, Rick Sánchez, y su fácilmente
+              influenciable nieto, Morty, quienes pasan el tiempo entre la vida doméstica y los Viajes espaciales
+              e intergalácticos. Dan Harmon, el cocreador de la serie y Justin Roiland son los encargados de las
+              voces principales de Morty y Rick, la serie también incluye las voces de Chris Parnell, Spencer Grammer y Sarah
+              Chalke.</p>
+            <a class="card-link" href="https://es.wikipedia.org/wiki/Rick_y_Morty">wikipedia</a>
+           
+          </div>
+        </div>
+        <div class="card" style="width: 20rem;">
+          <div class="card-body">
+            <h4 class="card-title">Argumento de la Serie</h4>
+            <p class="card-text">Rick Sánchez es el estereotipo del «científico loco». Es un genio y buen tipo, pero es irresponsable,
+               poco arreglado, alcohólico, egoísta, depresivo, sarcástico y con poca cordura. Rick por no poder pagar la renta de su antigua 
+               casa termina mudándose a la casa de su hija Beth y en ese momento se encuentra con su nieto Morty; un joven de 14 años sin expresión,
+                tímido y no muy listo. Al juntarse con su nieto, Rick y Morty viven una variedad de aventuras a lo largo de universos paralelos. Y es
+                 mediante tantas vivencias y reflexiones que Rick busca que su nieto Morty no acabe como su padre, Jerry, un hombre muy poco exitoso 
+                 que a pesar de tener buenas intenciones resulta ser bastante inútil en muchas ocasiones y depende mucho de su esposa, Beth.</p>
+        
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="content" id="content2">
+      <div class="row flex-center">
+        <div class="card" style="width: 20rem;">
+          <div class="card-body">
+            <h4 class="card-title">Informacion del Juego</h4>
+            <p class="card-text">El juego fue creado con p5.js y programado en objetos. El juego consta de un laberindo donde debes ayudar a morty a buscar las piezas
+              de la nave para poder escapar del planeta.
+            </p>
+ 
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="content" id="content3">
+      <div class="row flex-spaces">      
+        <div class="card" style="width: 20rem;">
+        <img src="FotoGaspi.jpeg" alt="Card example image">
+
+        <div class="card-body">
+          <h4 class="card-title">Gaspar Bernal</h4>
+
+          <p class="card-text">Tengo 23 años, soy de Lobos, me gusta hacer música. Me anote en esta carrera porque me gustaba mucho editar y todo ese mundo, soy de Independiente.</p>
+
+        </div>
+
+      </div>
+      <div class="card" style="width: 20rem;">
+        <img src="FotoJuan.jpeg" alt="Card example image">
+
+        <div class="card-body">
+          <h4 class="card-title">Juan Canale</h4>
+
+          <p class="card-text">Tengo 22 años, soy de Rio Colorado, Rio Negro, mis jugar videojuegos y tocar la guitarra. Me anote en la carrera porque me gustaba el diseño digital</p>
+
+        </div>
+      </div></div>
+
+    </div>
+    <div class="content" id="content4">
+      <div class="row flex-spaces child-borders">
+        <label class="paper-btn margin" for="modal-1">Jugar Aventura</label>
+    
+       <input class="modal-state" id="modal-1" type="checkbox">
+       <div class="modal">
+        <label class="modal-bg" for="modal-1"></label>
+        <div class="modal-body">
+          <label class="btn-close" for="modal-1">X</label>
+          <iframe src="tpfinalparte1/sketch_241017d/index.html" frameborder="0" width="640" height="480"> </iframe>
+       
+        </div>
+        
+      </div>
+      <label class="paper-btn margin" for="modal-2">Jugar Laberinto</label>
+    
+      <input class="modal-state" id="modal-2" type="checkbox">
+      <div class="modal">
+        <label class="modal-bg" for="modal-2"></label>
+        <div class="modal-body">
+          <label class="btn-close" for="modal-2">X</label>
+          <iframe src="tpfinalparte2/index.html" frameborder="0" width="640" height="480"> </iframe>
+    </div>
+        
+        
+
+      
+  </div>
+
+</body>
+
+</html>
